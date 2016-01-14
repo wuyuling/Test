@@ -1,0 +1,13 @@
+function myFunction()
+{
+   if(document.username.value==""){
+    alert("请输入用户名");
+    document.username.focus();
+    return false;
+   }
+   if(document.password.value==""){
+    alert("请输入密码");
+    document.password.focus();
+    return false;  
+     }
+ }
